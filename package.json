@@ -1,0 +1,22 @@
+{
+  "name": "escapereview-server",
+  "version": "1.0.0",
+  "description": "방탈출 카페 리뷰 사이트 서버",
+  "main": "index.js",
+  "repository": "https://github.com/rmfpdlxmtidl/escapereview-server.git",
+  "author": "Gwak Taeuk",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.10.0",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node ./server/index.js"
+  }
+}
