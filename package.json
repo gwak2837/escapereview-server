@@ -17,6 +17,6 @@
     "@babel/preset-env": "^7.8.4"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node ./server/index.js"
+    "start": "nodemon --exec babel-node ./src/server/index.js"
   }
 }
