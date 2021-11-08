@@ -7,7 +7,7 @@
   "author": "Gwak Taeuk",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.10.0",
+    "apollo-server": "^2.25.3",
     "global": "^4.4.0",
     "graphql": "^14.6.0",
     "nodemon": "^2.0.2",
